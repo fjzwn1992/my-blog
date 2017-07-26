@@ -9,6 +9,11 @@ require('./bootstrap');
 
 window.Vue = require('vue');
 
+import VueRouter from 'vue-route';
+
+import App from 'App.vue';
+
+Vue.use(VueRouter);
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
